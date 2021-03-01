@@ -1,1 +1,93 @@
+* {
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+}
 
+body {
+  margin-top: 186px;
+  margin-bottom: 50px;
+}
+
+a {
+  text-decoration: none;
+  color: blue;
+}
+
+span, h2, h3 {
+  font-weight: 500;
+  color: grey;
+}
+
+h2, h3 {
+  margin-top: 80px;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 10px 0;
+  background-color: white;
+}
+
+.header-top, .header-bottom {
+  display: flex;
+  margin: 0 10px;
+}
+
+.header-top {
+  justify-content: space-between;
+  padding-right: 10px;
+}
+.header-top-left, .header-top-right {
+  display: flex;
+  align-items: center;
+}
+.header-top-left span, .header-top-right span {
+  margin-left: 10px;
+  font-size: 1.5em;
+}
+.header-top img {
+  width: 80px;
+}
+.header-top i {
+  margin-right: 20px;
+  color: grey;
+  font-size: 1.2em;
+}
+.header-top .profile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  width: 35px;
+  height: 35px;
+  background-color: #33691e;
+  border-radius: 50%;
+}
+
+.header-bottom {
+  border-bottom: 1px solid grey;
+  margin: 0;
+}
+.header-bottom ul {
+  display: flex;
+  padding-left: 10px;
+}
+.header-bottom ul li {
+  list-style: none;
+  margin-right: 40px;
+  color: grey;
+  font-weight: 500;
+  font-size: 0.9em;
+}
+
+.lower-alpha {
+  list-style-type: lower-alpha;
+}
